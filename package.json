@@ -1,0 +1,31 @@
+{
+  "name": "uf1846_ivonne_cantor",
+  "version": "1.0.0",
+  "description": "Evaluacion practica de NODE y sus módulos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvonneCaPa/portalEmpresa.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "ejs",
+    "mysql",
+    "evaluación"
+  ],
+  "author": "Ivonne Cantor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvonneCaPa/portalEmpresa/issues"
+  },
+  "homepage": "https://github.com/IvonneCaPa/portalEmpresa#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  }
+}
