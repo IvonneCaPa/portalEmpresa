@@ -2,7 +2,7 @@
 const express = require('express')
 
 /** importamos el router */
-const {router, departamentos} = require('./router.js')
+const {router} = require('./router.js')
 
 /** Crear la variable que va a guardar todo */
 const app = express()
@@ -28,10 +28,11 @@ app.use(express.static('public'))
 /** usamos el router */
 app.use(router)
 
-/** definir que hacer en caso de error */
-app.use((req, res) => {
-    res.status(404).render('error', {departamentos})
-})
+/** definir que hacer en caso de error */ 
+/** Como se hace ahora ruta ya no necesitamos las lineas de abajo */
+// app.use((req, res) => {
+//     res.status(404).render('error', {departamentos})
+// })
 
 
 

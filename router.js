@@ -82,5 +82,12 @@ router.get('/team/:apellido', (req, res) => {
     })
 })
 
+/** Ruta para el error */
+
+router.get('*', (req, res) => {
+    res.status(404).render("error", {departamentos})
+})
+
+
 /** Exportamos el router */
 module.exports = { router, departamentos }
